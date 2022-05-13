@@ -4,13 +4,14 @@ using namespace std;
 
 int main(){
     char nome[10][20];
-    init(nome);
-
-    int contatore=0;
-    inserimento(nome, contatore);
-
     char n[20];
+    init(nome);
     init(n);
+
+    for (int i=0; i<10; i++){
+        cin >> nome[i];
+    }
+   
     cin >> n;
 
     int a= ricerca(nome,n);
