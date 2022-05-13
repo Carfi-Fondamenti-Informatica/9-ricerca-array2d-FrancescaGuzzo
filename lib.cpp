@@ -1,3 +1,4 @@
+
 #include "lib.h"
 
 void init(char mat[10][20]){
